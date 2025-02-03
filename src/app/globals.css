@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Ballet:opsz@16..72&family=Kaushan+Script&family=Laila:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "arquitecta";
+  src: url("./fonts/Arquitecta.otf");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "arquitecta";
+  src: url("./fonts/ArquitectaMedium.otf");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "arquitecta";
+  src: url("./fonts/ArquitectaBold.otf");
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "arquitecta";
+  src: url("./fonts/ArquitectaHeavy.otf");
+  font-display: swap;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "arquitecta";
+  src: url("./fonts/ArquitectaBook.otf");
+  font-display: swap;
+  font-weight: 600;
+}
+.arquitecta {
+  font-family: "arquitecta", sans-serif;
+}
