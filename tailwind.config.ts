@@ -14,13 +14,15 @@ export default {
       },
        backgroundImage: {
          "white-canvas": "url(/assets/images/png/page-design-white-canvas.png)",
-         "photo-canvas":"url(/assets/images/png/photo-canvas.png)"
+         "photo-canvas": "url(/assets/images/png/photo-canvas.png)",
+         "white-linear":"linear-gradient(180deg, rgba(255, 255, 255, 0) 21.02%, rgba(255, 255, 255, 0.28) 56.89%, #FFFFFF 100%)"
       },
       colors: {
         skyblue: "#3498DB",
         black: "#010101",
         darkgray: "#373737",
-        orange:"#F39C12"
+        orange: "#F39C12",
+        green:"#2ECC71"
       },  
       fontSize: {
         "custom-3xl":"32px",

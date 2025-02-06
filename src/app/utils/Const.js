@@ -75,3 +75,22 @@ export const NAV_LINK = [
     path: "",
   },
 ];
+
+export const STATICS = [
+  {
+    stats: "200+",
+    title: "Projects Completed",
+  },
+  {
+    stats: "2+",
+    title: "Years of Experience",
+  },
+  {
+    stats: "97%",
+    title: "Client Retention Rate",
+  },
+  {
+    stats: "5+",
+    title: "Awards Won",
+  },
+];

@@ -22,7 +22,7 @@ function Nav() {
   return (
     <>
       <div className="bg-skyblue py-5 rounded-b-3xl max-lg:hidden">
-        <div className="container max-w-[1560px] flex items-center lg:justify-between justify-center lg:flex-row flex-col gap-y-5">
+        <div className="container 2xl:max-w-[1560px] max-w-[1300px] flex items-center lg:justify-between justify-center lg:flex-row flex-col gap-y-5">
           <div className="flex items-center sm:flex-row flex-col sm:gap-11 gap-3">
             {HEADER_CONTACT_DETAIL.map((obj, index) => (
               <Link
@@ -48,7 +48,7 @@ function Nav() {
           </div>
         </div>
       </div>
-      <div className="container max-w-[1560px]">
+      <div className="container 2xl:max-w-[1560px] max-w-[1300px]">
         <div className="flex justify-between items-center xl:py-12 lg:py-6 sm:py-4 py-3 relative">
           <Link
             href={""}

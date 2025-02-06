@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Header from "./components/Header";
+import Analytics from "./components/Analytics";
+import About from "./components/About";
+import OurService from "./components/OurService";
 
 export default function Home() {
   return (
@@ -98,6 +101,9 @@ export default function Home() {
         </a>
       </footer> */}
       <Header />
+      <Analytics />
+      <About />
+      <OurService />
     </div>
   );
 }
