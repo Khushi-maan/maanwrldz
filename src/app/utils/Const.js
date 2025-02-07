@@ -6,8 +6,12 @@ import {
   Instagram,
   Linkdin,
   Mail,
+  Mobileapp,
   Pinterest,
+  SocialMediaPost,
   Tweeter,
+  Uiux,
+  Web,
 } from "../components/common/Icon";
 export const HEADER_CONTACT_DETAIL = [
   {
@@ -93,4 +97,45 @@ export const STATICS = [
     stats: "5+",
     title: "Awards Won",
   },
+];
+
+export const OFFER_BOX = [
+  [
+    {
+      icon: <Uiux />,
+      title: ["UI/UX ", "Design"],
+      description:
+        "I design simple and attractive interfaces that are easy to use. I create detailed plans and test versions to make sure every part works well and helps users do what they need to do.",
+      linktitle: "Get This Service",
+      link: "#getthisservice",
+    },
+  ],
+  [
+    {
+      icon: <Web />,
+      title: ["Web", "Design"],
+      description:
+        "I create beautiful, fast-loading websites that work well on all devices. Before starting, I take time to understand your brand, who you want to reach, & what you want to achieve.",
+      linktitle: "Get This Service",
+      link: "#getthisservice",
+    },
+  ],
+  [
+    {
+      icon: <Mobileapp />,
+      title: ["Mobile", "App"],
+      description:
+        "I create beautiful, fast-loading websites that work well on all devices. Before starting, I take time to understand your brand, who you want to reach, & what you want to achieve.",
+      linktitle: "Get This Service",
+      link: "#getthisservice",
+    },
+    {
+      icon: <SocialMediaPost />,
+      title: ["Social Media ", "Post"],
+      description:
+        "Get noticed online with eye-catching social media posts. I design posts that match your brand's style & message, making you stand out on Instagram, LinkedIn & other platforms.",
+      linktitle: "Get This Service",
+      link: "#getthisservice",
+    },
+  ],
 ];

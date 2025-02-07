@@ -3,7 +3,7 @@ import { STATICS } from "../utils/Const";
 function Analytics() {
   return (
     <div className="2xl:max-w-[1560px] max-w-[1300px] container xl:mb-28 lg:my-16 md:my-14 sm:my-12 my-10">
-      <div className="border border-solid border-skyblue rounded-[32px] py-[78px] px-[96px] flex items-center gap-10 flex-wrap justify-between">
+      <div className="border border-solid border-skyblue rounded-[32px] lg:py-[78px] lg:px-[96px] px-12 py-10 flex items-center gap-12 flex-wrap justify-between">
         {STATICS.map((obj, index) => (
           <div key={index} className="flex-grow">
             <h3

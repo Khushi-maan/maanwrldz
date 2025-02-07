@@ -43,6 +43,9 @@ export default {
         120: "120%",
         160:"160%",
       },
+      boxShadow: {
+        gray:"0px 4px 4px 0px #00000040"
+      }
     },
   },
   plugins: [],
