@@ -31,13 +31,13 @@ function Header() {
             </div>
           </div>
           <div className="xl:w-7/12 max-w-[835px] w-full flex md:flex-row flex-col max-xl:justify-center lg:gap-9 md:gap-6 gap-4">
-            <div className="md:max-w-[358px] w-full max-md:flex max-md:gap-4 sm:flex-row flex-col max-sm:items-center">
-              <div className="bg-white-canvas bg-no-repeat bg-center bg-cover bg-opacity-50 rounded-[36px] border-skyblue border border-solid py-[61px] flex items-center justify-center max-md:w-1/2 max-sm:w-full">
+            <div className="md:max-w-[358px] w-full flex max-md:gap-4 gap-5 sm:flex-row md:flex-col flex-col max-sm:items-center justify-between">
+              <div className="bg-white-canvas bg-no-repeat bg-center bg-cover bg-opacity-50 rounded-[36px] border-skyblue border border-solid lg:py-[61px] py-12 flex items-center justify-center max-md:w-1/2 max-sm:w-full">
                 <p className="font-ballet md:text-custom-9xl text-custom-6xl text-center text-skyblue !leading-120">
                   Logo Design
                 </p>
               </div>
-              <div className="bg-skyblue rounded-3xl pt-7 max-md:w-1/2 max-sm:w-full overflow-hidden lg:mt-9 md:mt-6 pb-3">
+              <div className="bg-skyblue rounded-3xl pt-7 max-md:w-1/2 max-sm:w-full overflow-hidden pb-3">
                 <p className="sm:text-[50px] text-custom-4xl text-center text-white !leading-120 arquitecta pb-3">
                   Tools I Used
                 </p>
@@ -73,7 +73,7 @@ function Header() {
                 </div>
               </div>
             </div>
-            <div className="md:max-w-[441px] max-md:h-[400px] w-full bg-photo-canvas !bg-opacity-20 rounded-[36px] bg-cover bg-center border-skyblue border-[1.5px] border-solid">
+            <div className="max-w-[441px] max-md:mx-auto max-md:h-[400px] max-lg:h-[550px] h-[660px] w-full bg-photo-canvas !bg-opacity-20 rounded-[36px] bg-cover bg-center border-skyblue border-[1.5px] border-solid">
               <Image
                 src={"/assets/images/png/ankur-maan.png"}
                 alt="ankur-maan"
