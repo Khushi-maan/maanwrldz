@@ -1,3 +1,4 @@
+import { title } from "process";
 import {
   Behance,
   Caller,
@@ -13,6 +14,8 @@ import {
   Uiux,
   Web,
 } from "../components/common/Icon";
+import { TabContent1 } from "../components/TabContent";
+import ResearchContent from "../components/ResearchContent";
 export const HEADER_CONTACT_DETAIL = [
   {
     path: "tel: +91 86077 01217",
@@ -138,4 +141,65 @@ export const OFFER_BOX = [
       link: "#getthisservice",
     },
   ],
+];
+export const TAB_BUTTON = [
+  {
+    title: "All",
+    description: <TabContent1 />,
+  },
+  {
+    title: "Artificial intelligence",
+    description: <TabContent1 />,
+  },
+  {
+    title: "Education",
+    description: <TabContent1 />,
+  },
+  {
+    title: "Real Estate",
+    description: <TabContent1 />,
+  },
+  {
+    title: "E-Commerce",
+
+    description: <TabContent1 />,
+  },
+  {
+    title: "Healthcare & Wellness",
+    description: <TabContent1 />,
+  },
+  {
+    title: "E-Commerce",
+    description: <TabContent1 />,
+  },
+  {
+    title: "Healthcare & Wellness",
+    description: <TabContent1 />,
+  },
+];
+export const FAQ_DATA = [
+  {
+    title: "Research & Strategy – Understanding Your Vision",
+    description: <ResearchContent />,
+  },
+  {
+    title: "Wireframing & Prototyping – Laying the Blueprint",
+    description:
+      "Before designing anything, I dive deep into your business, target audience, and competitors. This phase includes:",
+  },
+  {
+    title: "UI Design & Development – Bringing Ideas to Life",
+    description:
+      "Before designing anything, I dive deep into your business, target audience, and competitors. This phase includes:",
+  },
+  {
+    title: "Testing & Feedback – Refining the Experience",
+    description:
+      "Before designing anything, I dive deep into your business, target audience, and competitors. This phase includes:",
+  },
+  {
+    title: "Delivery & Support – Ensuring Long-Term Success",
+    description:
+      "Before designing anything, I dive deep into your business, target audience, and competitors. This phase includes:",
+  },
 ];

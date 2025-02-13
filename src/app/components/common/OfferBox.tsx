@@ -52,7 +52,7 @@ const OfferBox: React.FC<OfferBoxProps> = ({ offerbox }) => {
               href={obj.link}
               className="text-orange arquitecta !leading-120 sm:text-xl text-lg inline-flex items-center gap-1.5 group"
             >
-              {obj.linktitle} <RightArrow />
+              {obj.linktitle} <RightArrow fillColor="#F39C12" />
             </Link>
           )}
 

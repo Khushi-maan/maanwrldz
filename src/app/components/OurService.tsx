@@ -7,7 +7,7 @@ import Paragraph from "./common/Paragraph";
 function OurService() {
   return (
     <div className="bg-skyblue bg-opacity-10 xl:py-[120px] lg:py-16 md:py-14 sm:py-12 py-10">
-      <div className="container 2xl:max-w-[1560px] max-w-[1300px]">
+      <div className="container 3xl:max-w-[1560px] 2xl:max-w-[1400px] max-w-[1200px]">
         <div className="flex 2xl:gap-8 gap-6 max-2xl:flex-col">
           <div className="2xl:max-w-[1003px] w-full max-xl:text-center">
             <BlueHeading>Our Services</BlueHeading>
@@ -28,7 +28,7 @@ function OurService() {
               </div>
             </div>
           </div>
-          <div className="flex 2xl:flex-col 2xl:gap-8 gap-6 2xl:max-w-[485px] w-full md:flex-row flex-col">
+          <div className="flex 2xl:flex-col 2xl:gap-8 gap-6 3xl:max-w-[485px] 2xl:max-w-[432px] w-full md:flex-row flex-col">
             <OfferBox offerbox={OFFER_BOX[2]} />
           </div>
         </div>
