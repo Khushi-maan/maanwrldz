@@ -9,7 +9,7 @@ const HowIWork: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <div className="bg-opacity-10 py-10 xl:py-28 lg:py-16 md:py-14 sm:py-12">
+    <div className="bg-skyblue bg-opacity-10 py-10 xl:py-28 lg:py-16 md:py-14 sm:py-12">
       <div className="container 3xl:max-w-[1560px] 2xl:max-w-[1400px] max-w-[1200px]">
         {/* Header Section */}
         <div className="flex items-center justify-between max-lg:flex-col max-lg:text-center gap-x-20">
