@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { url } from "inspector";
 
 export const metadata: Metadata = {
   title: "Ankur Maan",
   description: "A passionate UI/UX Designer",
   openGraph: {
-    images: ["/assets/png/meta.png"],
+    images: [{ url: "/assets/png/meta.png" }],
+    videos: [
+      {
+        url: "https://nextjs.org/video.mp4", // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+    ],
   },
 };
 
