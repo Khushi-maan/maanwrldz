@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Ankur Maan",
   description: "A passionate UI/UX Designer",
   openGraph: {
-    images: [{ url: "/assets/png/meta.png" }],
+    images: [{ url: "https://ibb.co/NPRnZVf" }],
     videos: [
       {
         url: "https://nextjs.org/video.mp4", // Must be an absolute URL
