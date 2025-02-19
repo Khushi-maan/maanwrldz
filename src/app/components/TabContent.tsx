@@ -6,7 +6,7 @@ import Link from "next/link";
 export const TabContent1 = () => {
   return (
     <div className="flex gap-8 max-2xl:flex-wrap">
-      <div className="3xl:max-w-[744px] 2xl:max-w-[700px] w-full bg-white rounded-xl transition-all duration-300 ease-linear border-[1.5px] border-solid border-lightgray hover:border-transparent hover:shadow-gray flex 2xl:flex-col lg:flex-row flex-col max-2xl:items-center">
+      <div className="3xl:max-w-[744px] 2xl:max-w-[700px] w-full bg-white rounded-xl transition-all duration-300 ease-linear border-[1.5px] border-solid border-lightgray hover:border-transparent hover:shadow-lightgray flex 2xl:flex-col lg:flex-row flex-col max-2xl:items-center">
         <Image
           src={"/assets/images/png/ceais.png"}
           alt="ceais"
@@ -35,7 +35,7 @@ export const TabContent1 = () => {
         </div>
       </div>
       <div className="3xl:max-w-[744px] 2xl:max-w-[700px] w-full flex 2xl:flex-col lg:flex-row flex-col justify-between gap-8">
-        <div className="bg-white rounded-xl transition-all duration-300 ease-linear border-[1.5px] border-solid border-lightgray hover:border-transparent hover:shadow-gray sm:p-8 p-6 flex items-center 2xl:gap-[50px] gap-6 2xl:flex-row flex-col 2xl:w-full lg:w-1/2 w-full">
+        <div className="bg-white rounded-xl transition-all duration-300 ease-linear border-[1.5px] border-solid border-lightgray hover:border-transparent hover:shadow-lightgray sm:p-8 p-6 flex items-center 2xl:gap-[50px] gap-6 2xl:flex-row flex-col 2xl:w-full lg:w-1/2 w-full">
           <Image
             src={"/assets/images/png/ethos.png"}
             alt="ethos"
@@ -60,7 +60,7 @@ export const TabContent1 = () => {
             </Link>
           </div>
         </div>
-        <div className="bg-white rounded-xl transition-all duration-300 ease-linear border-[1.5px] border-solid border-lightgray hover:border-transparent hover:shadow-gray sm:p-8 p-6 flex items-center 2xl:gap-[50px] gap-6 2xl:flex-row flex-col 2xl:w-full lg:w-1/2 w-full">
+        <div className="bg-white rounded-xl transition-all duration-300 ease-linear border-[1.5px] border-solid border-lightgray hover:border-transparent hover:shadow-lightgray sm:p-8 p-6 flex items-center 2xl:gap-[50px] gap-6 2xl:flex-row flex-col 2xl:w-full lg:w-1/2 w-full">
           <Image
             src={"/assets/images/png/ethos.png"}
             alt="ethos"

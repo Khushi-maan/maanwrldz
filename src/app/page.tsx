@@ -7,6 +7,10 @@ import Portfolio from "./components/Portfolio";
 import { TabContent1 } from "./components/TabContent";
 import { TAB_BUTTON } from "./utils/Const";
 import HowIWork from "./components/HowIWork";
+import Blog from "./components/Blog";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
+import GetInTouch from "./components/GetInTouch";
 
 export default function Home() {
   const tabs = [
@@ -115,6 +119,10 @@ export default function Home() {
       <OurService />
       <Portfolio tabs={TAB_BUTTON} />
       <HowIWork />
+      {/* <Blog /> */}
+      <Faq />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }

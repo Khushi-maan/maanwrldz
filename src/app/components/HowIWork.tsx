@@ -2,8 +2,9 @@
 import { useState } from "react";
 import BlueHeading from "./common/BlueHeading";
 import Paragraph from "./common/Paragraph";
-import { FAQ_DATA } from "../utils/Const";
+import { HOW_I_WORK } from "../utils/Const";
 import { AccArrow } from "./common/Icon";
+import Cta from "./common/Cta";
 
 const HowIWork: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
@@ -13,7 +14,7 @@ const HowIWork: React.FC = () => {
       <div className="container 3xl:max-w-[1560px] 2xl:max-w-[1400px] max-w-[1200px]">
         {/* Header Section */}
         <div className="flex items-center justify-between max-lg:flex-col max-lg:text-center gap-x-20">
-          <div className="max-w-[443px] w-full">
+          <div className=" max-lg:max-w-[443px] w-full">
             <BlueHeading>How I Work</BlueHeading>
             <h2 className="xl:text-6xl sm:text-5xl arquitecta text-4xl font-medium leading-tight xl:mb-4 mb-3 mt-1">
               My Design <span className="font-bold">Process</span>
@@ -27,11 +28,11 @@ const HowIWork: React.FC = () => {
 
         {/* Accordion Section */}
         <div className="w-full 2xl:mt-20 mt-8 flex flex-col lg:gap-12 gap-6">
-          {FAQ_DATA.map(({ title, description }, index) => (
+          {HOW_I_WORK.map(({ title, description }, index) => (
             <div key={index}>
               {/* Accordion Trigger */}
               <button
-                className={`w-full text-left md:rounded-3xl rounded-xl arquitecta font-semibold sm:text-custom-3xl text-xl gap-8 relative sm:p-6 p-4 flex justify-between items-center border border-solid group transition-colors transform hover:bg-skyblue hover:border-skyblue hover:text-white ${
+                className={`w-full text-left md:rounded-3xl rounded-xl arquitecta font-semibold md:text-custom-3xl !leading-120 md:!leading-160 text-xl gap-8 relative sm:p-6 p-4 flex justify-between items-center border border-solid group transition-colors transform hover:bg-skyblue hover:border-skyblue hover:text-white ${
                   activeIndex === index
                     ? "bg-skyblue border-skyblue text-white"
                     : "bg-transparent border-gray text-black"
@@ -64,6 +65,12 @@ const HowIWork: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex items-center sm:gap-6 gap-4 xl:mt-14 mt-7 justify-center max-sm:flex-wrap">
+          <Cta orange className="!bg-orange !text-white">
+            Contact Us
+          </Cta>
+          <Cta orange>View My Portfolio</Cta>
         </div>
       </div>
     </div>

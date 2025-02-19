@@ -1,9 +1,15 @@
-import { title } from "process";
 import {
   Behance,
   Caller,
   Drrible,
   Facebook,
+  FooterBehance,
+  FooterDribble,
+  FooterFacebook,
+  FooterInstagram,
+  FooterLinkdin,
+  FooterPinterest,
+  FooterTweeter,
   Instagram,
   Linkdin,
   Mail,
@@ -16,6 +22,7 @@ import {
 } from "../components/common/Icon";
 import { TabContent1 } from "../components/TabContent";
 import ResearchContent from "../components/ResearchContent";
+import { ProjectTimeline } from "../components/FaqData";
 export const HEADER_CONTACT_DETAIL = [
   {
     path: "tel: +91 86077 01217",
@@ -63,23 +70,23 @@ export const HEADER_SOCIAL_MEDIA_LINKS = [
 export const NAV_LINK = [
   {
     title: "Home",
-    path: "",
+    path: "/",
   },
   {
     title: "About",
-    path: "",
+    path: "/about",
   },
   {
     title: "Services",
-    path: "",
+    path: "/services",
   },
   {
     title: "Portfolio",
-    path: "",
+    path: "/portfolio",
   },
   {
     title: "Blogs",
-    path: "",
+    path: "/blogs",
   },
 ];
 
@@ -177,7 +184,7 @@ export const TAB_BUTTON = [
     description: <TabContent1 />,
   },
 ];
-export const FAQ_DATA = [
+export const HOW_I_WORK = [
   {
     title: "Research & Strategy – Understanding Your Vision",
     description: <ResearchContent />,
@@ -201,5 +208,199 @@ export const FAQ_DATA = [
     title: "Delivery & Support – Ensuring Long-Term Success",
     description:
       "Before designing anything, I dive deep into your business, target audience, and competitors. This phase includes:",
+  },
+];
+export const RESEARCH_HIGHLIGHT = [
+  {
+    title: "User Research",
+    description: "Identifying pain points and needs of your audience.",
+  },
+  {
+    title: "Market Analysis",
+    description: "Studying competitors to craft a unique design approach",
+  },
+  {
+    title: "Strategy & Planning",
+    description: "Setting clear objectives and defining the project scope",
+  },
+];
+export const SLIDER_BOX = [
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+  {
+    img: "/assets/images/png/future-uiux.png",
+    blogdate: "7 Feb, 2025",
+    title: "The Future of",
+    subtitle: "UI/UX",
+    description:
+      "Stay updated with the latest design trends, user experience principles, and best practices that enhance digital interactions. Learn how to create seamless, engaging, and user-friendly interfaces that leave a lasting impact.",
+    link: "#",
+  },
+];
+export const FAQ_BUTTON = [
+  {
+    title: "How long does a project take?",
+    description: <ProjectTimeline />,
+  },
+  {
+    title: "What’s your design process?",
+    description: "sjcbmdggdgcdgc",
+  },
+  {
+    title: "Do you provide development services?",
+    description: "sjcbmdggdgcdgc",
+  },
+  {
+    title: "Can I request a custom package?",
+    description: "sjcbmdggdgcdgc",
+  },
+  {
+    title: "What tools do you use for design?",
+    description: "sjcbmdggdgcdgc",
+  },
+];
+export const TIMELINE_DATA = [
+  {
+    title: "Landing Page Design:",
+    time: "3-5 days",
+  },
+  {
+    title: "Full Website UI/UX:",
+    time: "1-3 weeks",
+  },
+  {
+    title: "Mobile App UI Design:",
+    time: "3-5 weeks",
+  },
+  {
+    title: "Social Media Post Designs:",
+    time: "1-2 days",
+  },
+];
+export const FOOTER_USEFUL_LINKS = [
+  {
+    title: "About",
+    path: "/about",
+  },
+  {
+    title: "Services",
+    path: "/services",
+  },
+  {
+    title: "Portfolio",
+    path: "/portfolio",
+  },
+  {
+    title: "Blogs",
+    path: "/blog",
+  },
+  {
+    title: "FAQ’s",
+    path: "#faq",
+  },
+];
+export const FOOTER_LEGAL_LINKS = [
+  {
+    title: "Terms of use",
+    path: "/",
+  },
+  {
+    title: "Privacy policy",
+    path: "/",
+  },
+  {
+    title: "Terms & Conditions",
+    path: "/",
+  },
+];
+export const STAY_UPDATED = [
+  {
+    svg: <FooterInstagram />,
+    path: "/",
+  },
+  {
+    svg: <FooterFacebook />,
+    path: "/",
+  },
+  {
+    svg: <FooterTweeter />,
+    path: "/",
+  },
+  {
+    svg: <FooterBehance />,
+    path: "/",
+  },
+  {
+    svg: <FooterDribble />,
+    path: "/",
+  },
+  {
+    svg: <FooterLinkdin />,
+    path: "/",
+  },
+  {
+    svg: <FooterPinterest />,
+    path: "/",
   },
 ];

@@ -47,7 +47,8 @@ export default {
         160: "160%",
       },
       boxShadow: {
-        gray: "0px 0px 12px 2px #CACACA3D",
+        lightgray: "0px 0px 12px 2px #CACACA3D",
+        darkgray: "0px 0px 20px 2px #CACACA3D",
       },
       screens: {
         "3xl": "1700px",

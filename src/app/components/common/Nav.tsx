@@ -7,7 +7,6 @@ import {
 } from "../../utils/Const";
 import Cta from "./Cta";
 import { useEffect, useState } from "react";
-import { Downicon } from "./Icon";
 function Nav() {
   const [toggle, setToggle] = useState(false);
 
